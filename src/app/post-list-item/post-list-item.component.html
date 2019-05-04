@@ -1,0 +1,14 @@
+<li class="list-group-item " [ngClass]="getLove()" >
+  <div [ngClass]="getLove()" class="sizeCard noBorder">
+    <div>
+      <h5 class="postTitle">{{post.titre}}
+        <small class="postDate"> {{post.created_at | date: 'short'}}</small>
+      </h5>
+      <p class="">{{post.contenu}}</p>
+      <button type="button" class="btn btn-success btnEspace" (click)="addLove(index)">Love it :) </button>
+      <button type="button" class="btn btn-danger" (click)="removeLove(index)">Don't love it :( </button>
+      <button type="button" class="btn btn-danger removeRight" (click)="removePost(post)">Delete </button>
+
+    </div>
+  </div>
+</li>

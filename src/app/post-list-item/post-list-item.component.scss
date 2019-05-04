@@ -1,0 +1,25 @@
+button:focus {
+  outline: 0;
+}
+
+.postTitle {
+  font-size: 25px;
+}
+
+.postDate {
+  float: right;
+  color: gray;
+}
+
+.btnEspace {
+  margin-right: 10px;
+}
+.removeRight{
+  float: right;
+}
+.sizeCard{
+  min-width: 400px;
+}
+.noBorder{
+  border: none !important;
+}
